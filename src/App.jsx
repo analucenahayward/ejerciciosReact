@@ -1,5 +1,6 @@
 import Ejercicio1 from "./componentes/Ejercicio1";
 import Ejercicio2 from "./componentes/Ejercicio2";
+import Ejercicio3 from "./componentes/Ejercicio3";
 
 
 function App() {
@@ -11,6 +12,7 @@ const amigo = 'my friend!' ;
     <>
     <Ejercicio1></Ejercicio1>
     <Ejercicio2 codigoAmigo={amigo} estado={true}></Ejercicio2>
+    <Ejercicio3 codigoAmigo={amigo} estado={true}></Ejercicio3>
     </>
   );
 }

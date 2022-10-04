@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Ejercicio2 = (props) => {
     return (
